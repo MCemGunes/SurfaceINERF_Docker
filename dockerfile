@@ -1,4 +1,4 @@
-FROM  pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel
+FROM  pytorch/pytorch:1.8.1-cuda10.2-cudnn7-devel
 
 # https://github.com/Gymat/SurfelNeRF/tree/unofficial
 
