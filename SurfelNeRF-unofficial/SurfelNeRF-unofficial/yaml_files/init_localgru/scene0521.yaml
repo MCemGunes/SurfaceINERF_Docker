@@ -7,7 +7,7 @@ TRAIN:
     PIN_MEMORY: True
     SHUFFLE_DATA: False
 DATA:
-    RANDOM_SAMPLE_SIZE: 200
+    RANDOM_SAMPLE_SIZE: 2 #200
     FAR_PLANE: 15.0
     NEAR_PLANE: 0.1
     IMG_WH: [640, 480]
@@ -32,8 +32,8 @@ MODEL:
     RASTERIZER:
         NAME: "Rasterize_Surfel_HW"
         DEPTH_MERGE_THRES: 0.1
-        POINTS_PER_PIXEL: 80
-        points_per_local: 10
+        POINTS_PER_PIXEL: 80 #80
+        points_per_local: 10 #10
         num_shading_points: 8
         BIN_SIZE: 8888
         SAVE_SURFEL_NAME: "scene0521_00"
